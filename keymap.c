@@ -192,7 +192,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Lower - QGMLW
  * ,-----------------------------------------------------------------------------------.
- * |   !  |   [  |   {  |   (  |   =  |   *  |   +  |   /  |   )  |   }  |   ]  | Bksp |
+ * |   !  |   [  |   {  |   (  |   =  |   +  |   *  |   /  |   )  |   }  |   ]  | Bksp |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |  Del | Mute |      |BrwRef|      |      |      |   <  |   >  |   %  |   &  |   ~  |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
@@ -211,7 +211,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 /* English Same as Nok - without æøå */
 [QGMLW_US_LOWER] = LAYOUT_ortho_4x12(
-	KC_EXLM, KC_LBRC, KC_LCBR, KC_LPRN, KC_EQL,  KC_ASTR, KC_PLUS, KC_SLSH, KC_RPRN, KC_RCBR, KC_RBRC, KC_BSPC,
+	KC_EXLM, KC_LBRC, KC_LCBR, KC_LPRN, KC_EQL,  KC_PLUS, KC_ASTR, KC_SLSH, KC_RPRN, KC_RCBR, KC_RBRC, KC_BSPC,
 	KC_DEL,  KC_MUTE, _______, KC_WREF, _______, _______, _______, KC_LT,  KC_GT,    KC_PERC, KC_AMPR, KC_TILD,
 	KC_LSFT, KC_SLEP, KC_SLCK, KC_CAPS, KC_NLCK, KC_PSCR, KC_INS,  KC_HOME, KC_END,  _______, _______, _______,
 	KC_LCTL, KC_LALT, _______, _______, adjust,  _______, _______, adjust,  KC_MNXT, KC_BRID, KC_BRIU, KC_MPLY
